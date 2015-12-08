@@ -1,0 +1,84 @@
+
+
+Starting up. 17:42.16
+---------------------
+Adding game mode abduction (abduction) to configuration.
+Adding game mode blob (blob) to configuration.
+Adding game mode changeling (changeling) to configuration.
+Adding game mode traitor+changeling (traitorchan) to configuration.
+Adding game mode double agents (double_agents) to configuration.
+Adding game mode traitor (traitor) to configuration.
+Adding game mode cult (cult) to configuration.
+Adding game mode extended (extended) to configuration.
+Adding game mode gang war (gang) to configuration.
+Adding game mode hand of god (handofgod) to configuration.
+Adding game mode AI malfunction (malfunction) to configuration.
+Adding game mode meteor (meteor) to configuration.
+Adding game mode monkey (monkey) to configuration.
+Adding game mode nuclear emergency (nuclear) to configuration.
+Adding game mode revolution (revolution) to configuration.
+Adding game mode sandbox (sandbox) to configuration.
+Adding game mode shadowling (shadowling) to configuration.
+Adding game mode very ragin' bullshit mages (veryraginbullshitmages) to configuration.
+Adding game mode ragin' mages (raginmages) to configuration.
+Adding game mode wizard (wizard) to configuration.
+Saved mode is 'extended'
+[17:42:16]ADMIN: Loading Banlistjob
+[17:42:16]ADMIN: Loading jobban_rank
+[17:42:16]ADMIN: jobban_keylist was empty
+[17:42:16]ADMIN: Loading appearance_rank
+[17:42:16]ADMIN: appearance_keylist was empty
+[17:42:16]ADMIN: Updating jobbanfile!
+[17:42:16]ADMIN: Loading Banlist
+[17:45:52]ACCESS: Login: AYLMAOm8/(AYLMAOm8) from 108.13.224.223-1197980245 || BYOND v509
+[17:47:19]ADMIN: AYLMAOm8/(AYLMAOm8) set the pre-game delay to 1 seconds.
+[17:47:22]ACCESS: Logout: *no key*/(AYLMAOm8)
+[17:47:22]ACCESS: Login: AYLMAOm8/(Rylie Cypret) from 108.13.224.223-1197980245 || BYOND v509
+[17:47:26]EMOTE: Featherbottom/ : <B>Featherbottom</B> flaps its wings viciously.
+[17:47:32]EMOTE: mouse/ : <B>The mouse</B> runs in a circle.
+[17:47:44]EMOTE: mouse/ : <B>The mouse</B> shakes.
+[17:48:14]EMOTE: Poly/ : <B>Poly</B> bawks!
+[17:48:42]EMOTE: monkey (666)/ : <B>The monkey (666)</B> jumps!
+[17:48:42]SAY: Renault/ : Awoo
+[17:49:00]SAY: mouse/ : Squeek!
+[17:49:20]EMOTE: mouse/ : <B>The mouse</B> squeeks.
+[17:49:24]SAY: Renault/ : Ack-Ack-Ack-Ackawoooo
+[17:49:44]SAY: Betsy/ : Moo
+[17:50:02]EMOTE: mouse/ : <B>The mouse</B> shakes.
+[17:50:10]EMOTE: Ian/ : <B>Ian</B> shivers.
+[17:50:14]SAY: Ian/ : Bark!
+[17:50:16]EMOTE: Featherbottom/ : <B>Featherbottom</B> pecks at the ground.
+[17:50:16]EMOTE: mouse/ : <B>The mouse</B> squeeks.
+[17:50:27]EMOTE: Pete/ : <B>Pete</B> shakes its head.
+[17:50:30]SAY: mouse/ : SQUEEK!
+[17:50:42]EMOTE: Rylie Cypret/AYLMAOm8 : <B>Rylie Cypret</B> gasps!
+[17:50:46]SAY: Poly/ : Breaking news from Station Announcements!
+[17:50:50]EMOTE: Rylie Cypret/AYLMAOm8 : <B>Rylie Cypret</B> gasps!
+[17:51:21]EMOTE: mouse/ : <B>The mouse</B> runs in a circle.
+[17:51:49]EMOTE: mouse/ : <B>The mouse</B> shakes.
+[17:51:51]EMOTE: Ian/ : <B>Ian</B> chases its tail!
+[17:51:53]SAY: mouse/ : Squeek!
+[17:52:13]SAY: grey baby slime (178)/ : Blop...
+[17:52:13]EMOTE: Pugley IV/ : <B>Pugley IV</B> chases its tail.
+[17:52:25]EMOTE: Kentucky/ : <B>Kentucky</B> flaps its wings viciously.
+[17:52:27]EMOTE: Ian/ : <B>Ian</B> woofs!
+[17:52:31]EMOTE: Pugley IV/ : <B>Pugley IV</B> shakes its head.
+[17:52:47]EMOTE: monkey (688)/ : <B>The monkey (688)</B> jumps!
+[17:53:03]EMOTE: Pete/ : <B>Pete</B> shakes its head.
+[17:53:15]EMOTE: Renault/ : <B>Renault</B> barks.
+[17:53:23]SAY: Pugley IV/ : YAP
+[17:54:21]EMOTE: mouse/ : <B>The mouse</B> runs in a circle.
+[17:54:31]EMOTE: monkey (931)/ : <B>The monkey (931)</B> jumps!
+[17:54:39]SAY: mouse/ : Squeek!
+[17:54:47]EMOTE: Pugley IV/ : <B>Pugley IV</B> chases its tail.
+[17:54:53]SAY: Renault/ : Geckers
+[17:54:57]EMOTE: monkey (992)/ : <B>The monkey (992)</B> jumps!
+[17:54:57]EMOTE: mouse/ : <B>The mouse</B> squeeks.
+[17:55:07]SAY: mouse/ : SQUEEK!
+[17:55:09]EMOTE: Kentucky/ : <B>Kentucky</B> flaps its wings viciously.
+[17:55:13]EMOTE: Kentucky/ : <B>Kentucky</B> clucks.
+[17:55:52]EMOTE: monkey (666)/ : <B>The monkey (666)</B> jumps!
+[17:55:52]SAY: Runtime/ : Meow!
+[17:55:57]EMOTE: monkey (316)/ : <B>The monkey (316)</B> jumps!
+[17:56:35]SAY: Runtime/ : HSSSSS
+[17:56:35]ACCESS: Logout: AYLMAOm8[DC]/(Rylie Cypret)

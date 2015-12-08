@@ -1,0 +1,59 @@
+﻿Quality of Life updates
+
+Conflicts:
+	code/modules/mob/living/carbon/human/species_types.dm
+	icons/mob/uniform.dmi
+	icons/obj/clothing/uniforms.dmi
+#
+# It looks like you may be committing a cherry-pick.
+# If this is not correct, please remove the file
+#	.git/CHERRY_PICK_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# You are currently cherry-picking commit 7c226ca.
+#
+# Changes to be committed:
+#	modified:   code/ATMOSPHERICS/components/binary_devices/pump.dm
+#	modified:   code/game/gamemodes/changeling/changeling.dm
+#	modified:   code/game/gamemodes/traitor/traitor.dm
+#	modified:   code/game/gamemodes/wizard/spellbook.dm
+#	modified:   code/game/machinery/suit_storage_unit.dm
+#	modified:   code/game/objects/items/weapons/cards_ids.dm
+#	modified:   code/modules/admin/admin_verbs.dm
+#	modified:   code/modules/clothing/head/jobs.dm
+#	modified:   code/modules/clothing/outfits/standard.dm
+#	modified:   code/modules/clothing/shoes/miscellaneous.dm
+#	modified:   code/modules/clothing/spacesuits/hardsuit.dm
+#	modified:   code/modules/clothing/spacesuits/miscellaneous.dm
+#	modified:   code/modules/clothing/suits/armor.dm
+#	modified:   code/modules/clothing/under/jobs/security.dm
+#	modified:   code/modules/mob/living/carbon/human/life.dm
+#	modified:   code/modules/mob/living/carbon/human/species.dm
+#	deleted:    code/modules/mob/living/carbon/human/species_types.dm
+#	modified:   code/modules/mob/living/emote.dm
+#	modified:   code/modules/mob/living/life.dm
+#	modified:   code/modules/projectiles/ammunition/energy.dm
+#	modified:   code/modules/projectiles/ammunition/magazines.dm
+#	modified:   code/modules/projectiles/guns/energy/nuclear.dm
+#	modified:   code/modules/projectiles/guns/projectile/automatic.dm
+#	modified:   code/modules/security levels/security levels.dm
+#	modified:   code/narky/unassigned.dm
+#	modified:   icons/mob/feet.dmi
+#	modified:   icons/mob/head.dmi
+#	modified:   icons/mob/suit.dmi
+#	deleted:    icons/mob/uniform.dmi
+#	modified:   icons/obj/clothing/hats.dmi
+#	modified:   icons/obj/clothing/shoes.dmi
+#	modified:   icons/obj/clothing/suits.dmi
+#	deleted:    icons/obj/clothing/uniforms.dmi
+#	new file:   sound/misc/tas_red_alert.ogg
+#	new file:   sound/misc/voyalert.ogg
+#	new file:   sound/misc/voybluealert.ogg
+#
+
