@@ -70,20 +70,20 @@
 	feedback_add_details("slime_cores_used","[type]")
 
 //Metal
-
 /datum/chemical_reaction/slimemineral
-	name = "Slime Bork 2"
+	name = "Slime Minerals"
 	id = "m_tele4"
 	result = null
-	required_reagents = list("water" = 1)
+	required_reagents = list("plasma" = 1)
 	result_amount = 1
-	required_container = /obj/item/slime_extract/silver
+	required_container = /obj/item/slime_extract/metal
 	required_other = 1
 
 /datum/chemical_reaction/slimemineral/on_reaction(datum/reagents/holder)
 
 	feedback_add_details("slime_cores_used","[type]")
-	var/list/blocked = list(/obj/item/weapon/ore)
+	var/list/blocked = list(/obj/item/weapon/ore,
+		/obj/item/weapon/ore/slag,)
 
 	var/list/minerals = typesof(/obj/item/weapon/ore) - blocked
 
@@ -100,8 +100,6 @@
 			if(prob(50))
 				for(var/j = 1, j <= rand(1, 3), j++)
 					step(B, pick(NORTH,SOUTH,EAST,WEST))
-
-
 
 //Gold
 /datum/chemical_reaction/slimecrit
