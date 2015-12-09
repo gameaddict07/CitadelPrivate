@@ -70,23 +70,38 @@
 	feedback_add_details("slime_cores_used","[type]")
 
 //Metal
-/datum/chemical_reaction/slimemetal
-	name = "Slime Metal"
-	id = "m_metal"
+
+/datum/chemical_reaction/slimemineral
+	name = "Slime Bork 2"
+	id = "m_tele4"
 	result = null
-	required_reagents = list("plasma" = 1)
+	required_reagents = list("water" = 1)
 	result_amount = 1
-	required_container = /obj/item/slime_extract/metal
+	required_container = /obj/item/slime_extract/silver
 	required_other = 1
 
-/datum/chemical_reaction/slimemetal/on_reaction(datum/reagents/holder)
+/datum/chemical_reaction/slimemineral/on_reaction(datum/reagents/holder)
+
 	feedback_add_details("slime_cores_used","[type]")
-	var/obj/item/stack/sheet/metal/M = new /obj/item/stack/sheet/metal
-	M.amount = 15
-	M.loc = get_turf(holder.my_atom)
-	var/obj/item/stack/sheet/plasteel/P = new /obj/item/stack/sheet/plasteel
-	P.amount = 5
-	P.loc = get_turf(holder.my_atom)
+	var/list/blocked = list(/obj/item/weapon/ore)
+
+	var/list/minerals = typesof(/obj/item/weapon/ore) - blocked
+
+	playsound(get_turf(holder.my_atom), 'sound/effects/phasein.ogg', 100, 1)
+
+	for(var/mob/living/carbon/M in viewers(get_turf(holder.my_atom), null))
+		M.flash_eyes()
+
+	for(var/i = 1, i <= 4 + rand(1,2), i++)
+		var/chosen = pick(minerals)
+		var/obj/B = new chosen
+		if(B)
+			B.loc = get_turf(holder.my_atom)
+			if(prob(50))
+				for(var/j = 1, j <= rand(1, 3), j++)
+					step(B, pick(NORTH,SOUTH,EAST,WEST))
+
+
 
 //Gold
 /datum/chemical_reaction/slimecrit
